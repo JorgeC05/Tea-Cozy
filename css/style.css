@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+   text-align: center;
+}
+
+/*Main Centered*/
+
+.main{
+  width: 1200px;
+  height: 100%;
+  border:  1px solid seashell;
+  margin: 0 auto;
+}
+
+/*fixed header and navigator*/
+header{
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-tea{
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav{
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav p{
+  padding-left: 30px;
+  text-decoration: underline;
+}
