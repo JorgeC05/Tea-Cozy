@@ -7,7 +7,7 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
-   text-align: center;
+  text-align: center;
 }
 
 /*Main Centered*/
@@ -24,6 +24,7 @@ header{
   width: 100%;
   height: 69px;
   position: fixed;
+  background-color: black;
   border-bottom: 1px solid seashell;
 
   display: flex;
@@ -45,4 +46,59 @@ nav{
 nav p{
   padding-left: 30px;
   text-decoration: underline;
+}
+
+/*banner*/
+
+.banner{
+  margin-top: 69px;
+  background-image: url("../resources/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text{
+  width: 1200px;
+  background-color: black;
+}
+
+h2, h4{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/*Images Section *************************************************** */
+
+.sub-main{
+  border:  1px solid seashell;
+  width: 1000px;
+  margin: 60px auto;
+}
+/*Three images*/
+
+.timg{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timg img, .dimg img{
+  width: 300px;
+  height: 200px;
+}
+
+.timg-img{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Double images*/
+
+.dimg{
+  margin: 30px 150px;
+  display: flex;
+  justify-content: space-around;
 }
